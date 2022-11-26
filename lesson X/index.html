@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+body{
+    background: linear-gradient(to left, #ff66ff 0%, #ccccff 75%);
+}
+        </style>
+</head>
+<body>
+    <p class="instruct">B1: Hãy chọn 1 tấm thiệp</p>
+<div class="overall">
+    <div class="box" id="anh1" onclick="myFunction1()">
+        <img src="images/65345782.png" alt="">
+        <div class="sbox" id="test1"> </div>
+    </div>
+    <div class="box" id="anh2" onclick="myFunction2()">
+        <img src="images/652.webp" alt="">
+        <div class="sbox" id="test2"> </div>
+    </div>
+    <div class="box" id="anh3" onclick="myFunction3()">
+        <img src="images/668.jpg" alt="">
+        <div class="sbox" id="test3"> </div>
+    </div>
+</div>
+    <p class="instruct">B2: Hãy điền tên giáo viên và lời chúc</p>
+    <div>
+        <p>Họ tên giáo viên</p>
+        <input type="text" id="name">
+        <p>Lời chúc</p>
+        <input type="text" id="loichuc">
+       <br>
+       <p class="instruct">B3: Ấn nút submit</p>
+       <button type="submit" onclick="display()"> Submit</button>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
